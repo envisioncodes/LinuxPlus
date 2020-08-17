@@ -1,0 +1,1571 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+    <title>@danielsolis</title>
+  </head>
+  <body class="bg-dark">
+<div class="container-fluid">
+<hr style="visibility:hidden";>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light rounded sticky-top">
+          <a class="navbar-brand" href="#">
+            <h6><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-terminal-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M0 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3zm9.5 5.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zm-6.354-.354L4.793 6.5 3.146 4.854a.5.5 0 1 1 .708-.708l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708z"/>
+            </svg>
+
+            </h6>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+            <ul class="navbar-nav">
+
+
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  /Linux +
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                  <a class="dropdown-item" href="#_ip_addr_show">/sbin/ip</a>
+                  <a class="dropdown-item" href="#_df">/sbin/df</a>
+                  <a class="dropdown-item" href="#_systemctl">/bin/systemctl</a>
+                  <a class="dropdown-item" href="#_du">/usr/bin/du</a>
+                  <a class="dropdown-item" href="#_ps">/bin/ps</a>
+                  <a class="dropdown-item" href="#_mount">/bin/mount</a>
+                  <a class="dropdown-item" href="#_netstat">/bin/netstat</a>
+                  <a class="dropdown-item" href="#_uname">/bin/uname</a>
+                  <a class="dropdown-item" href="#_hostnamectl">/usr/bin/hostnamectl</a>
+                  <a class="dropdown-item" href="#clamav">/usr/bin/clamscan</a>
+
+
+                </div>
+
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  /Cyber Security with Python
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                  <a class="dropdown-item" href="#requests">pentest with requests</a>
+                  <a class="dropdown-item" href="#requests">pentest with requests</a>
+
+
+
+                </div>
+
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  /Python
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                  <a class="dropdown-item" href="#requests">pentest with requests</a>
+                  <a class="dropdown-item" href="#requests">pentest with requests</a>
+
+
+
+                </div>
+
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  /Windows
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                  <a class="dropdown-item" href="#requests">pentest with requests</a>
+                  <a class="dropdown-item" href="#requests">pentest with requests</a>
+
+
+
+                </div>
+
+              </li>
+
+            </ul>
+          </div>
+
+        </nav>
+<hr style="visibility:hidden";>
+
+
+
+
+<header class="text-center"
+        <h1>
+          <svg width="8em" height="8em" viewBox="0 0 16 16" class="bi bi-terminal text-center text-light" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" d="M14 2H2a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1zM2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2z"/>
+    <path fill-rule="evenodd" d="M6 9a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3A.5.5 0 0 1 6 9zM3.146 4.146a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 1 1-.708-.708L4.793 6.5 3.146 4.854a.5.5 0 0 1 0-.708z"/>
+  </svg>
+</header>
+
+
+
+
+
+
+
+
+<hr style="visibility:hidden";>
+
+
+
+<section id="clamav">
+
+
+
+  <div class="card bg-light rounded center-text" style="padding:15px";>
+    <div class="card-header">
+      <h6><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-terminal-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M0 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3zm9.5 5.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zm-6.354-.354L4.793 6.5 3.146 4.854a.5.5 0 1 1 .708-.708l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708z"/>
+      </svg>
+      </h6>
+      </div>
+
+
+
+
+      <div class="class-body bg-dark text-light text-center rounded">
+        <hr style="visibility:hidden";>
+    <pre><h5 class="card-title text-light text-left" style="padding:15px";>How to install and use ClamAv antivirus via the Command Line on Linux?
+
+
+&#34;&#34;&#34;
+NAME
+       clamscan - scan files and directories for viruses
+
+
+OPTIONS
+       Most  of  the  options are simple switches which enable or disable some
+       features. Options marked with [=yes/no(*)] can be  optionally  followed
+       by  =yes/=no; if they get called without the boolean argument the scan‐
+       ner will assume &#39;yes&#39;. The asterisk marks the default internal  setting
+       for a given option.
+
+       -h, --help
+              Print help information and exit.
+
+       -V, --version
+              Print version number and exit.
+
+       -v, --verbose
+              Be verbose.
+
+       -a, --archive-verbose
+              Show filenames inside scanned archives
+
+       --debug
+              Display debug messages from libclamav.
+
+       --quiet
+              Be quiet (only print error messages).
+
+       --stdout
+              Write all messages (except for libclamav output) to the standard
+              output (stdout).
+
+       --no-summary
+              Do not display summary at the end of scanning.
+
+       -i, --infected
+              Only print infected files.
+
+       -o, --suppress-ok-results
+              Skip printing OK files
+
+       --bell Sound bell on virus detection.
+
+       --tempdir=DIRECTORY
+              Create temporary files in DIRECTORY. Directory must be  writable
+              for the &#39;&#39; user or unprivileged user running clamscan.
+
+       --leave-temps
+              Do not remove temporary files.
+
+       --gen-json
+              Generate  JSON  description  of  scanned  file(s).  JSON will be
+              printed and also dropped to the temp directory if  --leave-temps
+              is enabled.
+
+       -d FILE/DIR, --database=FILE/DIR
+              Load  virus  database from FILE or load all virus database files
+              from DIR.
+
+       --official-db-only=[yes/no(*)]
+              Only load  the  official  signatures  published  by  the  ClamAV
+              project.
+
+       -l FILE, --log=FILE
+              Save scan report to FILE.
+
+       -r, --recursive
+              Scan  directories  recursively.  All  the  subdirectories in the
+              given directory will be scanned.
+
+       -z, --allmatch
+              After a match, continue scanning within the file for  additional
+              matches.
+
+       --cross-fs=[yes(*)/no]
+              Scan files and directories on other filesystems.
+
+       --follow-dir-symlinks=[0/1(*)/2]
+              Follow directory symlinks. There are 3 options: 0 - never follow
+              directory symlinks, 1 (default) -  only  follow  directory  sym‐
+              links, which are passed as direct arguments to clamscan. 2 - al‐
+              ways follow directory symlinks.
+
+       --follow-file-symlinks=[0/1(*)/2]
+              Follow file symlinks. There are 3 options: 0 - never follow file
+              symlinks,  1  (default)  -  only follow file symlinks, which are
+              passed as direct arguments to clamscan. 2 - always  follow  file
+              symlinks.
+
+       -f FILE, --file-list=FILE
+              Scan files listed line by line in FILE.
+
+       --remove[=yes/no(*)]
+              Remove infected files. Be careful!
+
+
+
+EXAMPLES
+       (0) Scan a single file:
+
+              clamscan file
+
+       (1) Scan a current working directory:
+
+              clamscan
+
+       (2) Scan all files (and subdirectories) in /home:
+
+              clamscan -r /home
+
+       (3) Load database from a file:
+
+              clamscan -d /tmp/newclamdb -r /tmp
+
+       (4) Scan a data stream:
+
+              cat testfile | clamscan -
+
+       (5) Scan a mail spool directory:
+
+              clamscan -r /var/spool/mail
+
+
+
+&#34;&#34;&#34;
+install clamav
+$ sudo apt-get install clamav
+
+updating ClamAV virus signature database
+
+$ sudo freshclam
+
+Did you see an error that resembles the following?
+
+ERROR: /var/log/clamav/freshclam.log is locked by another process ERROR: Problem with internal logger (UpdateLogFile = /var/log/clamav/freshclam.log).
+
+The error indicates that ClamAV is currently running in the background. You need to stop the program before installing updates. Enter the following command:
+
+$ sudo /etc/init.d/clamav-freshclam stop
+
+now update virus database now
+
+$ sudo freshclam
+
+restart ClamAv using the following command:
+
+$ sudo /etc/init.d/clamav-freshclam start
+
+You can use various combinations to do whatever you want. For example, if you want ClamAV to scan and list only the infected files in your home directory, the command would look like this:
+
+$ clamscan -i -r ~/
+
+Use the following command to remove the virus as it finds:
+
+$ clamscan --remove=yes -i -r ~/
+&#34;&#34;&#34;</h5></pre>
+
+
+    <hr class="bg-light">
+      <p class="text-left" style="padding:30px";></p>
+      <code><pre><h5><p class="body text-left bg-dark text-light rounded-bottom" style="padding:30px";>@daniel:~$ sudo apt-get install clamav
+[sudo] password for daniel:
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+clamav is already the newest version (0.102.4+dfsg-0ubuntu0.20.04.1).
+The following packages were automatically installed and are no longer required:
+  linux-image-5.3.0-62-generic linux-modules-5.3.0-62-generic
+  linux-modules-extra-5.3.0-62-generic
+Use &#39;sudo apt autoremove&#39; to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+
+@daniel:~$ sudo freshclam
+ERROR: /var/log/clamav/freshclam.log is locked by another process
+ERROR: Problem with internal logger (UpdateLogFile = /var/log/clamav/freshclam.log).
+ERROR: initialize: libfreshclam init failed.
+ERROR: Initialization error!
+
+@daniel:~$ sudo /etc/init.d/clamav-freshclam stop
+Stopping clamav-freshclam (via systemctl): clamav-freshclam.service.
+
+
+@daniel:~$ sudo freshclam
+Sun Aug 16 17:53:10 2020 -&gt; ClamAV update process started at Sun Aug 16 17:53:10 2020
+Sun Aug 16 17:53:10 2020 -&gt; daily.cld database is up to date (version: 25903, sigs: 3903587, f-level: 63, builder: raynman)
+Sun Aug 16 17:53:10 2020 -&gt; main.cvd database is up to date (version: 59, sigs: 4564902, f-level: 60, builder: sigmgr)
+Sun Aug 16 17:53:10 2020 -&gt; bytecode.cvd database is up to date (version: 331, sigs: 94, f-level: 63, builder: anvilleg)
+
+
+@daniel:~$ sudo /etc/init.d/clamav-freshclam start
+Starting clamav-freshclam (via systemctl): clamav-freshclam.service.
+
+
+@daniel:~$ clamscan -i -r ~/Downloads/
+
+----------- SCAN SUMMARY -----------
+Known viruses: 8488196
+Engine version: 0.102.4
+Scanned directories: 126
+Scanned files: 724
+Infected files: 0
+Data scanned: 897.58 MB
+Data read: 2527.33 MB (ratio 0.36:1)
+Time: 68.253 sec (1 m 8 s)
+
+
+@daniel:~$ clamscan --remove=yes -i -r ~/Downloads/
+
+
+----------- SCAN SUMMARY -----------
+Known viruses: 8488196
+Engine version: 0.102.4
+Scanned directories: 126
+Scanned files: 724
+Infected files: 0
+Data scanned: 897.58 MB
+Data read: 2527.33 MB (ratio 0.36:1)
+Time: 68.688 sec (1 m 8 s)</p></h5></pre></code>
+</div>
+
+  <div class="card-footer text-muted">
+    by @danielsolis on 2020-08-17
+  </div>
+
+</div>
+
+</section>
+
+
+<hr style="visibility:hidden";>
+
+
+<section id="_hostnamectl">
+
+
+  <div class="card bg-light rounded center-text" style="padding:15px";>
+    <div class="card-header">
+      <h6><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-terminal-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M0 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3zm9.5 5.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zm-6.354-.354L4.793 6.5 3.146 4.854a.5.5 0 1 1 .708-.708l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708z"/>
+      </svg>
+      </h6>
+      </div>
+
+
+
+
+      <div class="class-body bg-dark text-light text-center rounded">
+        <hr style="visibility:hidden";>
+    <pre><h5 class="card-title text-light text-left" style="padding:15px";>How to change your systems hostname via Command Line in Linux?
+
+&#34;&#34;&#34;
+DESCRIPTION
+       hostnamectl may be used to query and change the system hostname and related settings.
+
+       This tool distinguishes three different hostnames: the high-level &#34;pretty&#34; hostname which might include all
+       kinds of special characters (e.g. &#34;Lennart&#39;s Laptop&#34;), the static hostname which is used to initialize the
+       kernel hostname at boot (e.g. &#34;lennarts-laptop&#34;), and the transient hostname which is a fallback value
+       received from network configuration. If a static hostname is set, and is valid (something other than
+       localhost), then the transient hostname is not used.
+
+       Note that the pretty hostname has little restrictions on the characters and length used, while the static
+       and transient hostnames are limited to the usually accepted characters of Internet domain names, and 64
+       characters at maximum (the latter being a Linux limitation).
+
+       The static hostname is stored in /etc/hostname, see hostname(5) for more information. The pretty hostname,
+       chassis type, and icon name are stored in /etc/machine-info, see machine-info(5).
+
+       Use systemd-firstboot(1) to initialize the system host name for mounted (but not booted) system images.
+
+COMMANDS
+       The following commands are understood:
+
+       status
+           Show current system hostname and related information. If no command is specified, this is the implied
+           default.
+
+       set-hostname NAME
+           Set the system hostname to NAME. By default, this will alter the pretty, the static, and the transient
+           hostname alike; however, if one or more of --static, --transient, --pretty are used, only the selected
+           hostnames are changed. If the pretty hostname is being set, and static or transient are being set as
+           well, the specified hostname will be simplified in regards to the character set used before the latter
+           are updated. This is done by removing special characters and spaces. This ensures that the pretty and
+           the static hostname are always closely related while still following the validity rules of the specific
+           name. This simplification of the hostname string is not done if only the transient and/or static host
+           names are set, and the pretty host name is left untouched.
+
+           Pass the empty string &#34;&#34; as the hostname to reset the selected hostnames to their default (usually
+           &#34;localhost&#34;).
+
+&#34;&#34;&#34;
+[!] I did this while having a YubiKey set up for sudo password. After I changed my original host name my password
+did not work anymore. Luckily I was able to change it before reboot. Not sure if I would&#39;ve been able to log back in(
+at least not without serious effort).
+[!]
+&#34;&#34;&#34;</h5></pre>
+
+
+    <hr class="bg-light">
+      <p class="text-left" style="padding:30px";></p>
+      <code><pre><h5><p class="body text-left bg-dark text-light rounded-bottom" style="padding:30px";>@daniel:~$ hostnamectl set-hostname daniel
+</p></h5></pre></code>
+</div>
+
+  <div class="card-footer text-muted">
+    by @danielsolis on 2020-08-16
+  </div>
+
+</div>
+
+<section>
+
+
+
+
+    <hr style="visibility:hidden";>
+
+
+
+
+
+
+
+
+
+<section id="_mount">
+
+  <div class="card bg-light rounded center-text" style="padding:15px";>
+    <div class="card-header">
+      <h6><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-terminal-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M0 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3zm9.5 5.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zm-6.354-.354L4.793 6.5 3.146 4.854a.5.5 0 1 1 .708-.708l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708z"/>
+      </svg>
+      </h6>
+      </div>
+
+
+
+
+      <div class="class-body bg-dark text-light text-center rounded">
+        <hr style="visibility:hidden";>
+    <pre><h5 class="card-title text-light text-left" style="padding:15px";>How to mount a filesystem via Command Line in Linux?
+
+&#34;&#34;&#34;
+
+DESCRIPTION
+       All  files accessible in a Unix system are arranged in one big tree, the file hierarchy, rooted at /.  These
+       files can be spread out over several devices.  The mount command serves to attach the  filesystem  found  on
+       some  device  to the big file tree.  Conversely, the umount(8) command will detach it again.  The filesystem
+       is used to control how data is stored on the device or provided in a virtual way by network or another  ser‐
+       vices.
+
+       The standard form of the mount command is:
+
+              mount -t type device dir
+
+       This tells the kernel to attach the filesystem found on device (which is of type type) at the directory dir.
+       The option -t type is optional.  The mount command is usually able to detect a filesystem.  The root permis‐
+       sions are necessary to mount a filesystem by default.  See section &#34;Non-superuser mounts&#34; below for more de‐
+       tails.  The previous contents (if any) and owner and mode of dir become  invisible,  and  as  long  as  this
+       filesystem remains mounted, the pathname dir refers to the root of the filesystem on device.
+
+       If only the directory or the device is given, for example:
+
+              mount /dir
+
+       then  mount looks for a mountpoint (and if not found then for a device) in the /etc/fstab file.  It&#39;s possi‐
+       ble to use the --target or --source options to avoid ambivalent interpretation of the given  argument.   For
+       example:
+
+              mount --target /mountpoint
+
+       The  same  filesystem  may be mounted more than once, and in some cases (e.g.  network filesystems) the same
+       filesystem may be mounted on the same mountpoint more times. The mount command does not implement any policy
+       to  control  this  behavior.  All  behavior  is  controlled  bythe  kernel and it is usually specific to the
+       filesystem driver. The exception is --all, in this case already mounted filesystems are ignored  (see  --all
+       below for more details).
+
+   Listing the mounts
+       The listing mode is maintained for backward compatibility only.
+
+       For more robust and customizable output use findmnt(8), especially in your scripts.  Note that control char‐
+       acters in the mountpoint name are replaced with &#39;?&#39;.
+
+       The following command lists all mounted filesystems (of type type):
+
+              mount [-l] [-t type]
+
+       The option -l adds labels to this listing.  See below.
+
+   Indicating the device and filesystem
+       Most devices are indicated by a filename (of a block special device), like /dev/sda1, but  there  are  other
+       possibilities.   For  example,  in  the case of an NFS mount, device may look like knuth.cwi.nl:/dir.  It is
+       also possible to indicate a block special device using its filesystem label or UUID (see the -L and  -U  op‐
+       tions below), or its partition label or UUID.  Partition identifiers are supported for example for GUID Par‐
+       tition Tables (GPT).
+
+       The device name of disk partitions are unstable; hardware reconfiguration, adding or removing a  device  can
+       cause change in names. This is reason why it&#39;s strongly recommended to use filesystem or partition identifi‐
+       cators like UUID or LABEL.
+
+       The command lsblk --fs provides overview of filesystems, LABELs and UUIDs on available block  devices.   The
+       command blkid -p &lt;device&gt; provides details about a filesystem on the specified device.
+
+       Don&#39;t  forget  that  there  is no guarantee that UUIDs and labels are really unique, especially if you move,
+       share or copy the device.  Use lsblk -o +UUID,PARTUUID to verify that the UUIDs are really  unique  in  your
+       system.
+
+       The  recommended setup is to use tags (e.g. UUID=uuid) rather than /dev/disk/by-{label,uuid,partuuid,partla‐
+       bel} udev symlinks in the /etc/fstab file.  Tags are more readable, robust and portable.  The mount(8)  com‐
+       mand  internally  uses  udev symlinks, so the use of symlinks in /etc/fstab has no advantage over tags.  For
+       more details see libblkid(3).
+
+       Note that mount(8) uses UUIDs as strings.  The UUIDs from the command line or from  fstab(5)  are  not  con‐
+       verted  to  internal  binary representation.  The string representation of the UUID should be based on lower
+       case characters.
+
+       The proc filesystem is not associated with a special device, and when mounting  it,  an  arbitrary  keyword,
+       such  as  proc can be used instead of a device specification.  (The customary choice none is less fortunate:
+       the error message `none already mounted&#39; from mount can be confusing.)
+
+   The files /etc/fstab, /etc/mtab and /proc/mounts
+       The file /etc/fstab (see fstab(5)), may contain lines describing what devices are usually mounted where, us‐
+       ing  which  options.  The default location of the fstab(5) file can be overridden with the --fstab path com‐
+       mand-line option (see below for more details).
+
+&#34;&#34;&#34;
+
+
+</h5></pre>
+
+
+    <hr class="bg-light">
+      <p class="text-left" style="padding:30px";></p>
+      <code><pre><h5><p class="body text-left bg-dark text-light rounded-bottom" style="padding:30px";>@daniel:~$ mount /dev/sdc2 /mnt
+</p></h5></pre></code>
+</div>
+
+  <div class="card-footer text-muted">
+    by @danielsolis on 2020-08-16
+  </div>
+
+</div>
+
+</section>
+
+
+
+
+    <hr style="visibility:hidden";>
+
+
+
+
+
+
+
+
+<section id="_ps">
+
+
+  <div class="card bg-light rounded center-text" style="padding:15px";>
+    <div class="card-header">
+      <h6><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-terminal-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M0 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3zm9.5 5.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zm-6.354-.354L4.793 6.5 3.146 4.854a.5.5 0 1 1 .708-.708l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708z"/>
+      </svg>
+      </h6>
+      </div>
+
+
+
+
+      <div class="class-body bg-dark text-light text-center rounded">
+        <hr style="visibility:hidden";>
+    <pre><h5 class="card-title text-light text-left" style="padding:15px";>How do you check CPU usage for a process via Command Line in Linux?
+
+&#34;&#34;&#34;
+DESCRIPTION
+       ps displays information about a selection of the active processes.  If you want a repetitive update of the
+       selection and the displayed information, use top(1) instead.
+
+       This version of ps accepts several kinds of options:
+
+       1   UNIX options, which may be grouped and must be preceded by a dash.
+       2   BSD options, which may be grouped and must not be used with a dash.
+       3   GNU long options, which are preceded by two dashes.
+
+       Options of different types may be freely mixed, but conflicts can appear.  There are some synonymous
+       options, which are functionally identical, due to the many standards and ps implementations that this ps is
+       compatible with.
+
+       Note that &#34;ps -aux&#34; is distinct from &#34;ps aux&#34;.  The POSIX and UNIX standards require that &#34;ps -aux&#34; print
+       all processes owned by a user named &#34;x&#34;, as well as printing all processes that would be selected by the -a
+       option.  If the user named &#34;x&#34; does not exist, this ps may interpret the command as &#34;ps aux&#34; instead and
+       print a warning.  This behavior is intended to aid in transitioning old scripts and habits.  It is fragile,
+       subject to change, and thus should not be relied upon.
+
+       By default, ps selects all processes with the same effective user ID (euid=EUID) as the current user and
+       associated with the same terminal as the invoker.  It displays the process ID (pid=PID), the terminal
+       associated with the process (tname=TTY), the cumulated CPU time in [DD-]hh:mm:ss format (time=TIME), and the
+       executable name (ucmd=CMD).  Output is unsorted by default.
+
+       The use of BSD-style options will add process state (stat=STAT) to the default display and show the command
+       args (args=COMMAND) instead of the executable name.  You can override this with the PS_FORMAT environment
+       variable.  The use of BSD-style options will also change the process selection to include processes on other
+       terminals (TTYs) that are owned by you; alternately, this may be described as setting the selection to be
+       the set of all processes filtered to exclude processes owned by other users or not on a terminal.  These
+       effects are not considered when options are described as being &#34;identical&#34; below, so -M will be considered
+       identical to Z and so on.
+
+       Except as described below, process selection options are additive.  The default selection is discarded, and
+       then the selected processes are added to the set of processes to be displayed.  A process will thus be shown
+       if it meets any of the given selection criteria.
+
+SIMPLE PROCESS SELECTION
+       a      Lift the BSD-style &#34;only yourself&#34; restriction, which is imposed upon the set of all processes when
+              some BSD-style (without &#34;-&#34;) options are used or when the ps personality setting is BSD-like.  The
+              set of processes selected in this manner is in addition to the set of processes selected by other
+              means.  An alternate description is that this option causes ps to list all processes with a terminal
+              (tty), or to list all processes when used together with the x option.
+       -u userlist
+              Select by effective user ID (EUID) or name.  This selects the processes whose effective user name or
+              ID is in userlist.
+       x      Lift the BSD-style &#34;must have a tty&#34; restriction, which is imposed upon the set of all processes when
+              some BSD-style (without &#34;-&#34;) options are used or when the ps personality setting is BSD-like.  The
+              set of processes selected in this manner is in addition to the set of processes selected by other
+              means.  An alternate description is that this option causes ps to list all processes owned by you
+              (same EUID as ps), or to list all processes when used together with the a option.
+
+NAME
+       grep, egrep, fgrep, rgrep - print lines that match patterns
+&#34;&#34;&#34;
+
+
+&#34;&#34;&#34;
+Another way to do this is with top:
+DESCRIPTION
+       The top program provides a dynamic real-time view of a running system.  It can display system summary infor‐
+       mation as well as a list of processes or threads currently being managed by the Linux kernel.  The types  of
+       system  summary  information  shown and the types, order and size of information displayed for processes are
+       all user configurable and that configuration can be made persistent across restarts.
+
+       The program provides a limited interactive interface for process manipulation as well as a much more  exten‐
+       sive interface for personal configuration  --  encompassing every aspect of its operation.  And while top is
+       referred to throughout this document, you are free to name the program anything you wish.   That  new  name,
+       possibly an alias, will then be reflected on top&#39;s display and used when reading and writing a configuration
+       file.
+&#34;&#34;&#34;
+
+&#34;&#34;&#34;
+Another way to do this is with htop:
+DESCRIPTION
+       Htop is a free (GPL) ncurses-based process viewer for Linux.
+
+       It is similar to top, but allows you to scroll vertically and horizontally, so you can see all the processes
+       running on the system, along with their full command lines, as well as viewing them as a process  tree,  se‐
+       lecting multiple processes and acting on them all at once.
+
+       Tasks related to processes (killing, renicing) can be done without entering their PIDs.
+
+&#34;&#34;&#34;</h5></pre>
+
+
+    <hr class="bg-light">
+      <p class="text-left" style="padding:30px";></p>
+      <code><pre><h5><p class="body text-left bg-dark text-light rounded-bottom" style="padding:30px";>@daniel:~$ ps aux | grep nginx
+root        1239  0.0  0.0  57544  1516 ?        Ss   18:17   0:00 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+www-data    1240  0.0  0.0  58100  5492 ?        S    18:17   0:00 nginx: worker process
+www-data    1243  0.0  0.0  58100  5492 ?        S    18:17   0:00 nginx: worker process
+www-data    1245  0.0  0.0  58100  5492 ?        S    18:17   0:00 nginx: worker process
+www-data    1246  0.0  0.0  58100  5492 ?        S    18:17   0:00 nginx: worker process
+www-data    1247  0.0  0.0  58100  5492 ?        S    18:17   0:00 nginx: worker process
+www-data    1249  0.0  0.0  58100  5492 ?        S    18:17   0:00 nginx: worker process
+www-data    1250  0.0  0.0  58100  5492 ?        S    18:17   0:00 nginx: worker process
+www-data    1251  0.0  0.0  58100  5492 ?        S    18:17   0:00 nginx: worker process
+www-data    1252  0.0  0.0  58100  5492 ?        S    18:17   0:00 nginx: worker process
+www-data    1253  0.0  0.0  58100  5492 ?        S    18:17   0:00 nginx: worker process
+www-data    1254  0.0  0.0  58100  5492 ?        S    18:17   0:00 nginx: worker process
+www-data    1255  0.0  0.0  58100  5492 ?        S    18:17   0:00 nginx: worker process
+www-data    1256  0.0  0.0  58100  5492 ?        S    18:17   0:00 nginx: worker process
+www-data    1258  0.0  0.0  58100  5492 ?        S    18:17   0:00 nginx: worker process
+www-data    1260  0.0  0.0  58100  5492 ?        S    18:17   0:00 nginx: worker process
+www-data    1262  0.0  0.0  58100  5492 ?        S    18:17   0:00 nginx: worker process
+evodata    11524  0.0  0.0   9032   664 pts/1    S+   23:50   0:00 grep --color=auto nginx
+
+@daniel:~$ top
+
+top - 23:54:24 up  5:36,  1 user,  load average: 0.21, 0.22, 0.22
+Tasks: 370 total,   1 running, 369 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.2 us,  0.1 sy,  0.0 ni, 99.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :  16003.7 total,   7969.7 free,   2264.6 used,   5769.4 buff/cache
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.  13144.3 avail Mem
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   3995 evodata   20   0  465716  43624  31620 S   2.0   0.3   0:32.36 gnome-terminal-
+   4797 evodata   20   0 3275872 598872 293232 S   2.0   3.7  13:06.37 MainThread
+   1324 root      20   0 2533936 194428 148088 S   1.3   1.2   6:29.71 Xorg
+   4879 evodata   20   0 2635372 234140 166796 S   0.7   1.4   3:24.44 Web Content
+   5433 evodata   20   0 1052712 224716 118544 S   0.7   1.4   2:01.18 atom
+   1010 avahi     20   0    8972   4264   3712 S   0.3   0.0   0:05.56 avahi-daemon
+   1207 root      20   0  412068  21328  16988 S   0.3   0.1   0:00.84 anydesk
+   1885 evodata   20   0 5699800 192528  99940 S   0.3   1.2   2:58.09 cinnamon
+   6885 evodata   20   0  189828  31752  10812 S   0.3   0.2   0:39.02 python3
+   8502 evodata   20   0 2656200 248296 167740 S   0.3   1.5   2:31.43 Web Content
+      1 root      20   0  169652  11952   8576 S   0.0   0.1   0:01.87 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par_gp
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/0:0H-kblockd
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mm_percpu_wq
+     10 root      20   0       0      0      0 S   0.0   0.0   0:00.11 ksoftirqd/0
+     11 root      20   0       0      0      0 I   0.0   0.0   0:04.78 rcu_sched
+     12 root      rt   0       0      0      0 S   0.0   0.0   0:00.04 migration/0
+     13 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/0
+     14 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0
+     15 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/1
+     16 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/1
+     17 root      rt   0       0      0      0 S   0.0   0.0   0:00.15 migration/1
+     18 root      20   0       0      0      0 S   0.0   0.0   0:00.04 ksoftirqd/1
+     20 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/1:0H-kblockd
+     21 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/2
+     22 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/2
+     23 root      rt   0       0      0      0 S   0.0   0.0   0:00.15 migration/2
+     24 root      20   0       0      0      0 S   0.0   0.0   0:00.02 ksoftirqd/2
+     26 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/2:0H-kblockd
+     27 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/3
+     28 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/3
+     29 root      rt   0       0      0      0 S   0.0   0.0   0:00.15 migration/3
+     30 root      20   0       0      0      0 S   0.0   0.0   0:00.02 ksoftirqd/3
+     32 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/3:0H-kblockd
+     33 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/4
+     34 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/4
+     35 root      rt   0       0      0      0 S   0.0   0.0   0:00.16 migration/4
+     36 root      20   0       0      0      0 S   0.0   0.0   0:00.02 ksoftirqd/4
+     38 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/4:0H-kblockd
+     39 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/5
+     40 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/5
+     41 root      rt   0       0      0      0 S   0.0   0.0   0:00.03 migration/5
+     42 root      20   0       0      0      0 S   0.0   0.0   0:00.02 ksoftirqd/5
+     44 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/5:0H-kblockd
+     45 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/6
+     46 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/6
+     47 root      rt   0       0      0      0 S   0.0   0.0   0:00.16 migration/6
+     48 root      20   0       0      0      0 S   0.0   0.0   0:00.03 ksoftirqd/6
+     50 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/6:0H-kblockd
+     51 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/7
+     52 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/7
+     53 root      rt   0       0      0      0 S   0.0   0.0   0:00.16 migration/7
+     54 root      20   0       0      0      0 S   0.0   0.0   0:00.01 ksoftirqd/7
+     56 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/7:0H-kblockd
+     57 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/8
+     58 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/8
+
+
+</p></h5></pre></code>
+</div>
+
+  <div class="card-footer text-muted">
+    by @danielsolis on 2020-08-16
+  </div>
+
+</div>
+
+
+</section>
+
+
+
+    <hr style="visibility:hidden";>
+
+
+
+
+
+
+
+
+<section id="_netstat">
+
+
+  <div class="card bg-light rounded center-text" style="padding:15px";>
+    <div class="card-header">
+      <h6><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-terminal-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M0 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3zm9.5 5.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zm-6.354-.354L4.793 6.5 3.146 4.854a.5.5 0 1 1 .708-.708l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708z"/>
+      </svg>
+      </h6>
+      </div>
+
+
+
+
+      <div class="class-body bg-dark text-light text-center rounded">
+        <hr style="visibility:hidden";>
+    <pre><h5 class="card-title text-light text-left" style="padding:15px";>How would you check for open ports on a Linux machine via the Command Line in Linux?
+
+&#34;&#34;&#34;
+
+run command with sudo to get program id displayed
+
+SYNOPSIS
+       netstat [address_family_options] [--tcp|-t] [--udp|-u] [--udplite|-U]  [--sctp|-S]  [--raw|-w]  [--l2cap|-2]
+       [--rfcomm|-f]   [--listening|-l]   [--all|-a]   [--numeric|-n]  [--numeric-hosts]  [--numeric-ports]  [--nu‐
+       meric-users] [--symbolic|-N] [--extend|-e[--extend|-e]] [--timers|-o] [--program|-p] [--verbose|-v]  [--con‐
+       tinuous|-c] [--wide|-W]
+
+       netstat   {--route|-r}  [address_family_options]  [--extend|-e[--extend|-e]]  [--verbose|-v]  [--numeric|-n]
+       [--numeric-hosts] [--numeric-ports] [--numeric-users] [--continuous|-c]
+
+       netstat {--interfaces|-i} [--all|-a] [--extend|-e[--extend|-e]] [--verbose|-v] [--program|-p] [--numeric|-n]
+       [--numeric-hosts] [--numeric-ports] [--numeric-users] [--continuous|-c]
+
+       netstat {--groups|-g} [--numeric|-n] [--numeric-hosts] [--numeric-ports] [--numeric-users] [--continuous|-c]
+
+       netstat {--masquerade|-M} [--extend|-e] [--numeric|-n] [--numeric-hosts] [--numeric-ports] [--numeric-users]
+       [--continuous|-c]
+
+       netstat {--statistics|-s} [--tcp|-t] [--udp|-u] [--udplite|-U] [--sctp|-S] [--raw|-w]
+
+       netstat {--version|-V}
+
+       netstat {--help|-h}
+&#34;&#34;&#34;</h5></pre>
+
+
+    <hr class="bg-light">
+      <p class="text-left" style="padding:30px";></p>
+      <code><pre><h5><p class="body text-left bg-dark text-light rounded-bottom" style="padding:30px";>@daniel:~$ netstat -tulpn
+(Not all processes could be identified, non-owned process info
+ will not be shown, you would have to be root to see it all.)
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN      -
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      -
+tcp        0      0 0.0.0.0:7070            0.0.0.0:*               LISTEN      -
+tcp        0      0 127.0.0.1:5000          0.0.0.0:*               LISTEN      4124/python3
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      -
+tcp6       0      0 ::1:631                 :::*                    LISTEN      -
+tcp6       0      0 :::80                   :::*                    LISTEN      -
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           -
+udp        0      0 0.0.0.0:55935           0.0.0.0:*                           -
+udp        0      0 127.0.0.53:53           0.0.0.0:*                           -
+udp        0      0 0.0.0.0:631             0.0.0.0:*                           -
+udp        0      0 0.0.0.0:50001           0.0.0.0:*                           - </p></h5></pre></code>
+</div>
+
+  <div class="card-footer text-muted">
+    by @danielsolis on 2020-08-16
+  </div>
+
+</div>
+
+</section>
+
+
+
+
+    <hr style="visibility:hidden";>
+
+
+
+
+
+
+
+
+<section id="_du">
+
+
+  <div class="card bg-light rounded center-text" style="padding:15px";>
+    <div class="card-header">
+      <h6><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-terminal-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M0 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3zm9.5 5.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zm-6.354-.354L4.793 6.5 3.146 4.854a.5.5 0 1 1 .708-.708l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708z"/>
+      </svg>
+      </h6>
+      </div>
+
+
+
+
+      <div class="class-body bg-dark text-light text-center rounded">
+        <hr style="visibility:hidden";>
+    <pre><h5 class="card-title text-light text-left" style="padding:15px";>How to check the size of a directory&#39;s contents of disk via Comman Line on Linux?
+
+&#34;&#34;&#34;
+DESCRIPTION
+       Summarize disk usage of the set of FILEs, recursively for directories.
+
+       Mandatory arguments to long options are mandatory for short options too.
+
+       -0, --null
+              end each output line with NUL, not newline
+
+       -a, --all
+              write counts for all files, not just directories
+
+       --apparent-size
+              print  apparent  sizes, rather than disk usage; although the apparent size is usually smaller, it may
+              be larger due to holes in (&#39;sparse&#39;) files, internal fragmentation, indirect blocks, and the like
+
+       -B, --block-size=SIZE
+              scale sizes by SIZE before printing them; e.g., &#39;-BM&#39; prints sizes in units of 1,048,576  bytes;  see
+              SIZE format below
+
+       -b, --bytes
+              equivalent to &#39;--apparent-size --block-size=1&#39;
+
+       -c, --total
+              produce a grand total
+
+       -D, --dereference-args
+              dereference only symlinks that are listed on the command line
+
+       -d, --max-depth=N
+              print  the total for a directory (or file, with --all) only if it is N or fewer levels below the com‐
+              mand line argument;  --max-depth=0 is the same as --summarize
+
+       --files0-from=F
+              summarize disk usage of the NUL-terminated file names specified in file F; if F is -, then read names
+              from standard input
+
+       -H     equivalent to --dereference-args (-D)
+
+       -h, --human-readable
+              print sizes in human readable format (e.g., 1K 234M 2G)
+
+       --inodes
+              list inode usage information instead of block usage
+
+       -k     like --block-size=1K
+
+       -L, --dereference
+              dereference all symbolic links
+
+       -l, --count-links
+              count sizes many times if hard linked
+
+       -m     like --block-size=1M
+
+       -P, --no-dereference
+              don&#39;t follow any symbolic links (this is the default)
+
+       -S, --separate-dirs
+              for directories do not include size of subdirectories
+
+       --si   like -h, but use powers of 1000 not 1024
+
+       -s, --summarize
+              display only a total for each argument
+
+       -t, --threshold=SIZE
+              exclude entries smaller than SIZE if positive, or entries greater than SIZE if negative
+
+       --time show time of the last modification of any file in the directory, or any of its subdirectories
+
+       --time=WORD
+              show time as WORD instead of modification time: atime, access, use, ctime or status
+
+       --time-style=STYLE
+              show times using STYLE, which can be: full-iso, long-iso, iso, or +FORMAT; FORMAT is interpreted like
+              in &#39;date&#39;
+
+       -X, --exclude-from=FILE
+              exclude files that match any pattern in FILE
+
+       --exclude=PATTERN
+              exclude files that match PATTERN
+
+       -x, --one-file-system
+              skip directories on different file systems
+
+       --help display this help and exit
+
+       --version
+              output version information and exit
+
+       Display values are in units of the first available SIZE from --block-size, and the DU_BLOCK_SIZE, BLOCK_SIZE
+       and  BLOCKSIZE  environment variables.  Otherwise, units default to 1024 bytes (or 512 if POSIXLY_CORRECT is
+       set).
+
+       The SIZE argument is an integer and optional unit (example: 10K  is  10*1024).   Units  are  K,M,G,T,P,E,Z,Y
+       (powers of 1024) or KB,MB,... (powers of 1000).
+&#34;&#34;&#34;
+</h5></pre>
+
+
+    <hr class="bg-light">
+      <p class="text-left" style="padding:30px";></p>
+      <code><pre><h5><p class="body text-left bg-dark text-light rounded-bottom" style="padding:30px";>@daniel:~$ du -sh Downloads/
+2.5G	Downloads/
+</p></h5></pre></code>
+</div>
+
+  <div class="card-footer text-muted">
+    by @danielsolis on 2020-08-16
+  </div>
+
+</div>
+
+</section>
+
+
+
+
+    <hr style="visibility:hidden";>
+
+
+
+
+
+
+
+
+
+<section id="_systemctl">
+
+  <div class="card bg-light rounded center-text" style="padding:15px";>
+    <div class="card-header">
+      <h6><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-terminal-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M0 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3zm9.5 5.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zm-6.354-.354L4.793 6.5 3.146 4.854a.5.5 0 1 1 .708-.708l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708z"/>
+      </svg>
+      </h6>
+      </div>
+
+
+
+
+      <div class="class-body bg-dark text-light text-center rounded">
+        <hr style="visibility:hidden";>
+    <pre><h5 class="card-title text-light text-left" style="padding:15px";>How do you manage services on a system via Command Line in Linux?
+
+&#34;&#34;&#34;
+Example 1. Example output from systemctl status
+
+               $ systemctl status bluetooth
+               ● bluetooth.service - Bluetooth service
+                  Loaded: loaded (/lib/systemd/system/bluetooth.service; enabled; vendor preset: enabled)
+                  Active: active (running) since Wed 2017-01-04 13:54:04 EST; 1 weeks 0 days ago
+                    Docs: man:bluetoothd(8)
+                Main PID: 930 (bluetoothd)
+                  Status: &#34;Running&#34;
+                   Tasks: 1
+                  Memory: 648.0K
+                     CPU: 435ms
+                  CGroup: /system.slice/bluetooth.service
+                          └─930 /usr/lib/bluetooth/bluetoothd
+
+               Jan 12 10:46:45 example.com bluetoothd[8900]: Not enough free handles to register service
+               Jan 12 10:46:45 example.com bluetoothd[8900]: Current Time Service could not be registered
+               Jan 12 10:46:45 example.com bluetoothd[8900]: gatt-time-server: Input/output error (5)
+
+           The dot (&#34;●&#34;) uses color on supported terminals to summarize the unit state at a glance. White indicates an &#34;inactive&#34; or
+           &#34;deactivating&#34; state. Red indicates a &#34;failed&#34; or &#34;error&#34; state and green indicates an &#34;active&#34;, &#34;reloading&#34; or &#34;activating&#34; state.
+
+           The &#34;Loaded:&#34; line in the output will show &#34;loaded&#34; if the unit has been loaded into memory. Other possible values for &#34;Loaded:&#34;
+           include: &#34;error&#34; if there was a problem loading it, &#34;not-found&#34; if not unit file was found for this unit, &#34;bad-setting&#34; if an
+           essential unit file setting could not be parsed and &#34;masked&#34; if the unit file has been masked. Along with showing the path to the
+           unit file, this line will also show the enablement state. Enabled commands start at boot. See the full table of possible enablement
+           states — including the definition of &#34;masked&#34; — in the documentation for the is-enabled command.
+
+           The &#34;Active:&#34; line shows active state. The value is usually &#34;active&#34; or &#34;inactive&#34;. Active could mean started, bound, plugged in, etc
+           depending on the unit type. The unit could also be in process of changing states, reporting a state of &#34;activating&#34; or
+           &#34;deactivating&#34;. A special &#34;failed&#34; state is entered when the service failed in some way, such as a crash, exiting with an error code
+           or timing out. If the failed state is entered the cause will be logged for later reference.
+
+start PATTERN...
+           Start (activate) one or more units specified on the command line.
+
+           Note that unit glob patterns expand to names of units currently in memory. Units which are not active and are not in a failed state
+           usually are not in memory, and will not be matched by any pattern. In addition, in case of instantiated units, systemd is often
+           unaware of the instance name until the instance has been started. Therefore, using glob patterns with start has limited usefulness.
+           Also, secondary alias names of units are not considered.
+
+           Option --all may be used to also operate on inactive units which are referenced by other loaded units. Note that this is not the same
+           as operating on &#34;all&#34; possible units, because as the previous paragraph describes, such a list is ill-defined. Nevertheless,
+           systemctl start --all GLOB may be useful if all the units that should match the pattern are pulled in by some target which is known
+           to be loaded.
+
+       stop PATTERN...
+           Stop (deactivate) one or more units specified on the command line.
+
+           This command will fail if the unit does not exist or if stopping of the unit is prohibited (see RefuseManualStop= in
+           systemd.unit(5)). It will not fail if any of the commands configured to stop the unit (ExecStop=, etc.) fail, because the manager
+           will still forcibly terminate the unit.
+
+       reload PATTERN...
+           Asks all units listed on the command line to reload their configuration. Note that this will reload the service-specific
+           configuration, not the unit configuration file of systemd. If you want systemd to reload the configuration file of a unit, use the
+           daemon-reload command. In other words: for the example case of Apache, this will reload Apache&#39;s httpd.conf in the web server, not
+           the apache.service systemd unit file.
+
+           This command should not be confused with the daemon-reload command.
+
+       restart PATTERN...
+           Stop and then start one or more units specified on the command line. If the units are not running yet, they will be started.
+
+           Note that restarting a unit with this command does not necessarily flush out all of the unit&#39;s resources before it is started again.
+           For example, the per-service file descriptor storage facility (see FileDescriptorStoreMax= in systemd.service(5)) will remain intact
+           as long as the unit has a job pending, and is only cleared when the unit is fully stopped and no jobs are pending anymore. If it is
+           intended that the file descriptor store is flushed out, too, during a restart operation an explicit systemctl stop command followed
+           by systemctl start should be issued.
+
+status [PATTERN...|PID...]]
+           Show terse runtime status information about one or more units, followed by most recent log data from the journal. If no units are
+           specified, show system status. If combined with --all, also show the status of all units (subject to limitations specified with -t).
+           If a PID is passed, show information about the unit the process belongs to.
+
+           This function is intended to generate human-readable output. If you are looking for computer-parsable output, use show instead. By
+           default, this function only shows 10 lines of output and ellipsizes lines to fit in the terminal window. This can be changed with
+           --lines and --full, see above. In addition, journalctl --unit=NAME or journalctl --user-unit=NAME use a similar filter for messages
+           and might be more convenient.
+
+           systemd implicitly loads units as necessary, so just running the status will attempt to load a file. The command is thus not useful
+           for determining if something was already loaded or not. The units may possibly also be quickly unloaded after the operation is
+           completed if there&#39;s no reason to keep it in memory thereafter.
+&#34;&#34;&#34;
+</h5></pre>
+
+
+    <hr class="bg-light">
+      <p class="text-left" style="padding:30px";></p>
+      <code><pre><h5><p class="body text-left bg-dark text-light rounded-bottom" style="padding:30px";>@daniel:~$ systemctl status bluetooth
+● bluetooth.service - Bluetooth service
+     Loaded: loaded (/lib/systemd/system/bluetooth.service; enabled; vendor preset: enabled)
+     Active: active (running) since Sat 2020-08-15 11:18:00 PDT; 12h ago
+       Docs: man:bluetoothd(8)
+   Main PID: 1011 (bluetoothd)
+     Status: &#34;Running&#34;
+      Tasks: 1 (limit: 19017)
+     Memory: 2.4M
+     CGroup: /system.slice/bluetooth.service
+             └─1011 /usr/lib/bluetooth/bluetoothd
+
+Aug 15 11:18:00 R7 bluetoothd[1011]: Bluetooth daemon 5.53
+Aug 15 11:18:00 R7 systemd[1]: Started Bluetooth service.
+Aug 15 11:18:00 R7 bluetoothd[1011]: Starting SDP server
+Aug 15 11:18:00 R7 bluetoothd[1011]: Bluetooth management interface 1.14 initialized
+Aug 15 11:18:02 R7 bluetoothd[1011]: Endpoint registered: sender=:1.35 path=/MediaEndpoint/A2DPSink/sbc
+Aug 15 11:18:02 R7 bluetoothd[1011]: Endpoint registered: sender=:1.35 path=/MediaEndpoint/A2DPSource/sbc
+Aug 15 11:18:13 R7 bluetoothd[1011]: Endpoint unregistered: sender=:1.35 path=/MediaEndpoint/A2DPSink/sbc
+Aug 15 11:18:13 R7 bluetoothd[1011]: Endpoint unregistered: sender=:1.35 path=/MediaEndpoint/A2DPSource/sbc
+Aug 15 11:18:14 R7 bluetoothd[1011]: Endpoint registered: sender=:1.56 path=/MediaEndpoint/A2DPSink/sbc
+Aug 15 11:18:14 R7 bluetoothd[1011]: Endpoint registered: sender=:1.56 path=/MediaEndpoint/A2DPSource/sbc</p></h5></pre></code>
+</div>
+
+  <div class="card-footer text-muted">
+    by @danielsolis on 2020-08-16
+  </div>
+
+</div>
+
+</section>
+
+
+
+
+    <hr style="visibility:hidden";>
+
+
+
+
+
+
+
+
+
+
+<section id="_df">
+
+  <div class="card bg-light rounded center-text" style="padding:15px";>
+    <div class="card-header">
+      <h6><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-terminal-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M0 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3zm9.5 5.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zm-6.354-.354L4.793 6.5 3.146 4.854a.5.5 0 1 1 .708-.708l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708z"/>
+      </svg>
+      </h6>
+      </div>
+
+
+
+
+      <div class="class-body bg-dark text-light text-center rounded">
+        <hr style="visibility:hidden";>
+    <pre><h5 class="card-title text-light text-left" style="padding:15px";>How do you check for free disk space via Command Line in Linux?
+
+&#34;&#34;&#34;
+OPTIONS
+       Show information about the file system on which each FILE resides, or all file systems by default.
+
+       Mandatory arguments to long options are mandatory for short options too.
+
+       -a, --all
+              include pseudo, duplicate, inaccessible file systems
+
+       -B, --block-size=SIZE
+              scale sizes by SIZE before printing them; e.g., &#39;-BM&#39; prints sizes in units of 1,048,576 bytes; see SIZE format below
+
+       -h, --human-readable
+              print sizes in powers of 1024 (e.g., 1023M)
+
+       -H, --si
+              print sizes in powers of 1000 (e.g., 1.1G)
+
+       -i, --inodes
+              list inode information instead of block usage
+
+       -k     like --block-size=1K
+
+       -l, --local
+              limit listing to local file systems
+
+       --no-sync
+              do not invoke sync before getting usage info (default)
+
+       --output[=FIELD_LIST]
+              use the output format defined by FIELD_LIST, or print all fields if FIELD_LIST is omitted.
+
+       -P, --portability
+              use the POSIX output format
+&#34;&#34;&#34;</h5></pre>
+
+
+    <hr class="bg-light">
+      <p class="text-left" style="padding:30px";></p>
+      <code><pre><h5><p class="body text-left bg-dark text-light rounded-bottom" style="padding:30px";>@daniel:~$ df -ah
+Filesystem      Size  Used Avail Use% Mounted on
+sysfs              0     0     0    - /sys
+proc               0     0     0    - /proc
+udev            7.8G     0  7.8G   0% /dev
+devpts             0     0     0    - /dev/pts
+tmpfs           1.6G  1.9M  1.6G   1% /run
+/dev/nvme0n1p2  228G   70G  147G  33% /
+securityfs         0     0     0    - /sys/kernel/security
+tmpfs           7.9G  138M  7.7G   2% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           7.9G     0  7.9G   0% /sys/fs/cgroup
+cgroup2            0     0     0    - /sys/fs/cgroup/unified
+cgroup             0     0     0    - /sys/fs/cgroup/systemd
+pstore             0     0     0    - /sys/fs/pstore
+efivarfs           0     0     0    - /sys/firmware/efi/efivars
+none               0     0     0    - /sys/fs/bpf
+cgroup             0     0     0    - /sys/fs/cgroup/cpuset
+cgroup             0     0     0    - /sys/fs/cgroup/blkio
+cgroup             0     0     0    - /sys/fs/cgroup/net_cls,net_prio
+cgroup             0     0     0    - /sys/fs/cgroup/rdma
+cgroup             0     0     0    - /sys/fs/cgroup/cpu,cpuacct
+cgroup             0     0     0    - /sys/fs/cgroup/freezer
+cgroup             0     0     0    - /sys/fs/cgroup/memory
+cgroup             0     0     0    - /sys/fs/cgroup/devices
+cgroup             0     0     0    - /sys/fs/cgroup/pids
+cgroup             0     0     0    - /sys/fs/cgroup/perf_event
+cgroup             0     0     0    - /sys/fs/cgroup/hugetlb
+systemd-1          -     -     -    - /proc/sys/fs/binfmt_misc
+hugetlbfs          0     0     0    - /dev/hugepages
+mqueue             0     0     0    - /dev/mqueue
+debugfs            0     0     0    - /sys/kernel/debug
+tracefs            0     0     0    - /sys/kernel/tracing
+fusectl            0     0     0    - /sys/fs/fuse/connections
+configfs           0     0     0    - /sys/kernel/config
+/dev/nvme0n1p1  252M   33M  220M  14% /boot/efi
+tmpfs           1.6G   44K  1.6G   1% /run/user/1000
+gvfsd-fuse         0     0     0    - /run/user/1000/gvfs
+/dev/sdc2        49G   45G  1.3G  98% /media/evodata/f1f6ece3-7ae5-4812-b6bc-7e7fa1ef8a0b
+/dev/nvme0n1p2  228G   70G  147G  33% /run/timeshift/backup
+binfmt_misc        0     0     0    - /proc/sys/fs/binfmt_misc</p></h5></pre></code>
+</div>
+
+  <div class="card-footer text-muted">
+    by @danielsolis on 2020-08-16
+  </div>
+
+</div>
+
+</section>
+
+
+
+
+
+    <hr style="visibility:hidden";>
+
+
+
+
+
+
+
+
+<section id="_ip_addr_show">
+
+
+  <div class="card bg-light rounded center-text" style="padding:15px";>
+    <div class="card-header">
+      <h6><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-terminal-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M0 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3zm9.5 5.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zm-6.354-.354L4.793 6.5 3.146 4.854a.5.5 0 1 1 .708-.708l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708z"/>
+      </svg>
+      </h6>
+      </div>
+
+
+
+
+      <div class="class-body bg-dark text-light text-center rounded">
+        <hr style="visibility:hidden";>
+    <pre><h5 class="card-title text-light text-left" style="padding:15px";>How can you check a system&#39;s current IP Address via Command Line in Linux?
+
+&#34;&#34;&#34;
+More than one way to do this:
+ip addr show (The more updated way of doing it)
+ifconfig or /sbin/ifconfig
+ip a
+hostname -I
+&#34;&#34;&#34;
+
+</h5></pre>
+
+
+    <hr class="bg-light">
+      <p class="text-left" style="padding:30px";></p>
+      <code><pre><h5><p class="body text-left bg-dark text-light rounded-bottom" style="padding:30px";>@daniel:~$ ip addr show
+@daniel:~$ ifconfig
+@daniel:~$ /sbin/ifconfig
+@daniel:~$ ip a
+@daniel:~$ hostname -I
+</p></h5></pre></code>
+</div>
+
+  <div class="card-footer text-muted">
+    by @danielsolis on 2020-08-16
+  </div>
+
+</div>
+
+</section>
+
+
+
+
+    <hr style="visibility:hidden";>
+
+
+
+
+
+
+
+
+
+<section id="_uname">
+
+  <div class="card bg-light rounded center-text" style="padding:15px";>
+    <div class="card-header">
+      <h6><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-terminal-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M0 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3zm9.5 5.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zm-6.354-.354L4.793 6.5 3.146 4.854a.5.5 0 1 1 .708-.708l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708z"/>
+      </svg>
+      </h6>
+      </div>
+
+
+
+
+      <div class="class-body bg-dark text-light text-center rounded">
+        <hr style="visibility:hidden";>
+    <pre><h5 class="card-title text-light text-left" style="padding:15px";>How can you see which compiled kernel version a system is currently running via the Command Line in Linux?
+
+
+&#34;&#34;&#34;
+DESCRIPTION
+       Print certain system information.  With no OPTION, same as -s.
+
+       -a, --all
+              print all information, in the following order, except omit -p and -i if unknown:
+
+       -s, --kernel-name
+              print the kernel name
+
+       -n, --nodename
+              print the network node hostname
+
+       -r, --kernel-release
+              print the kernel release
+
+       -v, --kernel-version
+              print the kernel version
+
+       -m, --machine
+              print the machine hardware name
+
+       -p, --processor
+              print the processor type (non-portable)
+
+       -i, --hardware-platform
+              print the hardware platform (non-portable)
+
+       -o, --operating-system
+              print the operating system
+
+       --help display this help and exit
+
+       --version
+              output version information and exit
+&#34;&#34;&#34;
+5 – Kernel version
+4 – Major revision
+0 – Minor revision
+42 – Bug fix
+generic – Distribution-specific string (desktop version)
+server - (server version)
+#46-Ubuntu SMP Tue Fri Jul 10 00:24:02 UTC 2020 – This means that Ubuntu has compiled 5.4.0-42-generic 46 times. A timestamp for the last compilation.
+&#34;&#34;&#34;</h5></pre>
+
+
+    <hr class="bg-light">
+      <p class="text-left" style="padding:30px";></p>
+      <code><pre><h5><p class="body text-left bg-dark text-light rounded-bottom" style="padding:30px";>@daniel:~$ uname -vr
+5.4.0-42-generic #46-Ubuntu SMP Fri Jul 10 00:24:02 UTC 2020
+
+
+
+
+</p></h5></pre></code>
+</div>
+
+
+
+  <div class="card-footer text-muted">
+    by @danielsolis on 2020-08-16
+  </div>
+
+</div>
+
+
+</section>
+
+<hr style="visibility:hidden";>
+
+
+<section id="requests">
+
+  <div class="card bg-light rounded center-text" style="padding:15px";>
+    <div class="card-header">
+      <h6><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-terminal-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M0 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3zm9.5 5.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zm-6.354-.354L4.793 6.5 3.146 4.854a.5.5 0 1 1 .708-.708l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708z"/>
+      </svg>
+      </h6>
+      </div>
+
+
+
+
+      <div class="class-body bg-dark text-light text-center rounded">
+        <hr style="visibility:hidden";>
+    <pre><h5 class="card-title text-light text-left" style="padding:15px";>How to check if a website is vulnerable in Python via the Command Line in Linux?
+
+&#34;&#34;&#34;
+&gt;&gt;&gt; print(dir(requests))
+[&#39;ConnectTimeout&#39;, &#39;ConnectionError&#39;, &#39;DependencyWarning&#39;, &#39;FileModeWarning&#39;, &#39;HTTPError&#39;, &#39;NullHandler&#39;,
+ &#39;PreparedRequest&#39;, &#39;ReadTimeout&#39;, &#39;Request&#39;, &#39;RequestException&#39;, &#39;RequestsDependencyWarning&#39;, &#39;Response&#39;,
+ &#39;Session&#39;, &#39;Timeout&#39;, &#39;TooManyRedirects&#39;, &#39;URLRequired&#39;, &#39;__author__&#39;, &#39;__author_email__&#39;, &#39;__build__&#39;,
+&#39;__builtins__&#39;, &#39;__cached__&#39;, &#39;__cake__&#39;, &#39;__copyright__&#39;, &#39;__description__&#39;, &#39;__doc__&#39;, &#39;__file__&#39;, &#39;__license__&#39;,
+&#39;__loader__&#39;, &#39;__name__&#39;, &#39;__package__&#39;, &#39;__path__&#39;, &#39;__spec__&#39;, &#39;__title__&#39;, &#39;__url__&#39;, &#39;__version__&#39;,
+&#39;_check_cryptography&#39;, &#39;_internal_utils&#39;, &#39;adapters&#39;, &#39;api&#39;, &#39;auth&#39;, &#39;certs&#39;, &#39;chardet&#39;, &#39;check_compatibility&#39;,
+&#39;codes&#39;, &#39;compat&#39;, &#39;cookies&#39;, &#39;cryptography_version&#39;, &#39;delete&#39;, &#39;exceptions&#39;, &#39;get&#39;, &#39;head&#39;, &#39;hooks&#39;, &#39;logging&#39;,
+&#39;models&#39;, &#39;options&#39;, &#39;packages&#39;, &#39;patch&#39;, &#39;post&#39;, &#39;put&#39;, &#39;pyopenssl&#39;, &#39;request&#39;, &#39;session&#39;, &#39;sessions&#39;,
+&#39;status_codes&#39;, &#39;structures&#39;, &#39;urllib3&#39;, &#39;utils&#39;, &#39;warnings&#39;]
+
+
+&#34;&#34;&#34;
+
+&#34;&#34;&#34;
+Let us write a script to check if a website has a php admin console.
+&#34;&#34;&#34;</h5></pre>
+
+
+    <hr class="bg-light">
+      <p class="text-left" style="padding:30px";></p>
+      <code><pre><h5><p class="body text-left bg-dark text-light rounded-bottom" style="padding:30px";>import requests
+
+response = requests.get(&#39;http://vulnweb.com&#39;)
+
+if(response.status_code == 200):
+    response = requests.get(&#39;http://vulnweb.com/admin.php&#39;)
+
+
+    if(response.status_code == 200):
+        print(&#39;Vulnerable site&#39;)
+    else:
+        print(&#39;Not a vulnerable site&#39;)
+else:
+    print(&#39;Request failure&#39;)
+
+
+@daniel:~$ python3 pentest.py
+Not a vulnerable site</p></h5></pre></code>
+</div>
+
+  <div class="card-footer text-muted">
+    by @danielsolis on 2020-08-16
+  </div>
+
+</div>
+
+
+</section>
+
+
+
+</div>
+
+
+<hr style="visibility:hidden";>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
